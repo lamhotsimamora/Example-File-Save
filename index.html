@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example Save File Client Side</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://cdn.rawgit.com/lamhotsimamora/GF-Javascript/master/JS/GF-1.js"></script>
+	<!-- Javascript Source File Save-->
+	<script src="filesave.js"></script>
+    <!-- Javascript Source File Save-->								
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="og:image" 			content="https://raw.githubusercontent.com/lamhotsimamora/Example-Api-NASA/master/logo.png" />
+	<link rel="shortcut icon" type="image/png" href="ico.png"/>
+	<meta name="ROBOTS" 			content="index"/>
+	<meta name="Author" 			content="Eli Grey" />
+	<meta name="copyright" 			content="Copyright@2017 | All Right Reserved" />
+	<meta property="og:title" 		content="Example Save File  | GARUDA QUERY JAVASCRIPT" />
+	<meta property="og:description" content="Example Save File  | GARUDA QUERY JAVASCRIPT" />
+	<meta property="og:name"      	content="Example Save File  | GARUDA QUERY JAVASCRIPT" />
+	<meta property="og:image"     	content="https://raw.githubusercontent.com/lamhotsimamora/Example-File-Save/master/logo.png" />
+	<meta name="language" 		  	content="Indonesian, English" />
+	<meta name="distribution" 	  	content="Global" />
+	<meta name="rating" 		  	content="General" />
+	<meta name="expires" 		  	content="1800" />
+	<meta name="theme-color"      	content="#F39943"> 
+</head>
+<body>
+
+	<script src="app.js"></script>
+	
+	<div class="container">
+		
+		<div class="jumbotron">
+			<h1>Example Save File Client Side</h1>
+			<h3>Special Thanks to <a href="https://github.com/eligrey/FileSaver.js" target="_blank">https://github.com/eligrey/FileSaver.js</a></h3>
+			<h3>Original Creator <a target="_blank" href="https://github.com/eligrey">Eli Grey</a></h3>
+			<hr>
+			<i>Support by <strong><a target="_blank" href="https://github.com/lamhotsimamora/GF-Javascript">Garuda Javascript</a></strong></i>
+		</div>
+
+		<hr>
+			<div id="msg_warning"></div>
+			<hr>
+			<div class="form-group">
+				<input type="text" class="form-control" id="txt_file" placeholder="Masukkan Nama File ( Tanpa Format File )" name="">
+				</br>
+
+				<div class="panel panel-success">
+				    <div class="panel-body">
+				    	Format File <hr>
+						<input type="radio" name="optradio" id="f_txt"> .txt ( Text ) </input></br>
+						<input type="radio" name="optradio" id="f_js"> .js ( Javascript ) </input></br>
+						<input type="radio" name="optradio" id="f_php"> .php ( PHP ) </input></br>
+						<input type="radio" name="optradio" id="f_html"> .html ( HTML ) </input></br>
+				    </div>
+					
+				</div>
+			</div>
+			</br>
+			<textarea class="form-control" placeholder="Masukkan Content" id="txt_content" rows="5"></textarea>
+			</br>
+			<button class="btn btn-primary" id="btn_save">SAVE</button>
+		<hr>
+
+	</div>
+
+	
+</body>
+</html>
