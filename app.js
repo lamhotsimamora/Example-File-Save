@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	// Enabled console log Garuda Javascript
+	run_console = true;
+	
 	// This Code Just An Example For Make Sure That Garuda Javascript Is Work !...
 	// Repository https://github.com/eligrey/FileSaver.js
 	// Many Thanks to Eli Grey
