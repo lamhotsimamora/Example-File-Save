@@ -72,7 +72,12 @@ $(document).ready(function(){
 		// End Save To File
 	}
 
-
+	
+	_onClick("btn_clear",function(){
+		_clear("txt_content");
+		_clear("txt_file");
+		_focus("txt_file");
+	});
 	_onClick("btn_save",function(){
 		save();
 	});
